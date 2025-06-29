@@ -13,7 +13,7 @@
 | **手写数字识别** | CNN + PyTorch | MNIST | 准确率 98%+ | 经典卷积神经网络，深度学习入门 |
 | **图像分类** | Vision Transformer | CIFAR-10 | 准确率 80%+ | 前沿ViT架构，Attention机制应用 |
 | **自动写诗** | LSTM + Embedding | 唐诗数据集 | 流畅度评估 | 序列生成，中文NLP处理 |
-| **神经机器翻译** | Transformer | 中英平行语料 | BLEU4 > 14 | Seq2Seq架构，双向注意力机制 |
+| **神经机器翻译** | Transformer | 中英平行语料 | BLEU4 > 25 | Seq2Seq架构，双向注意力机制 |
 | **目标检测** | YOLOv5 | 自定义数据集 | mAP 90%+ | 实时检测，端到端训练 |
 
 
