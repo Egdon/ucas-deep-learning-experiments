@@ -1,0 +1,54 @@
+# 国科大深度学习实验统一依赖文件
+# Usage: pip install -r requirements.txt
+
+# 核心深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 数据处理和计算
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# 图像处理
+Pillow>=9.0.0
+opencv-python>=4.5.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 序列处理和NLP
+sentencepiece>=0.1.96
+sacrebleu>=2.0.0
+jieba>=0.42.1
+
+# 机器学习工具
+scikit-learn>=1.0.0
+einops>=0.6.0
+
+# 进度条和工具
+tqdm>=4.64.0
+psutil
+
+# 配置和数据格式
+PyYAML>=5.3.1
+requests>=2.25.0
+
+# 可视化和日志
+tensorboard>=2.8.0
+wandb>=0.12.0
+
+# Jupyter和开发工具
+jupyter>=1.0.0
+ipython>=7.0.0
+
+# YOLOv5相关（exp5专用）
+gitpython>=3.1.30
+ultralytics>=8.0.0
+thop>=0.1.1
+
+# 可选的GPU加速
+# cupy-cuda11x>=10.0.0  # 根据CUDA版本选择
+
+# 导出和部署工具
+# onnx>=1.10.0
+# coremltools>=6.0 

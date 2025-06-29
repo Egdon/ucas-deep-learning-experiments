@@ -1,0 +1,5 @@
+torch>=1.5.1
+sentencepiece
+sacrebleu
+numpy
+tqdm 

@@ -1,0 +1,112 @@
+# 深度学习项目 .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch模型文件
+*.pt
+*.pth
+*.pkl
+*.pickle
+
+# TensorFlow模型文件
+*.h5
+*.pb
+saved_model/
+*.ckpt.*
+checkpoint
+
+# 数据文件
+*.csv
+*.json
+*.xml
+*.yaml
+*.yml
+data/*.jpg
+data/*.png
+data/*.jpeg
+data/*.bmp
+data/*.tiff
+data/*.zip
+data/*.tar.gz
+data/*.rar
+
+# 训练日志和结果
+logs/
+runs/
+results/
+wandb/
+tensorboard_logs/
+*.log
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 大文件和临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# 实验特定的忽略
+exp*/checkpoints/*.pth
+exp*/checkpoints/*.pt
+exp*/results/*.png
+exp*/results/*.jpg
+exp*/logs/*.txt
+exp*/logs/*.log
+
+# 但保留一些示例文件
+!exp*/checkpoints/README.md
+!exp*/results/README.md
+!exp*/logs/README.md
+
+# Git LFS跟踪的大文件（如果需要）
+# *.bin
+# *.model 
