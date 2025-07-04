@@ -1,12 +1,6 @@
 # Tang Poetry Generator
 ---
-
-##  技术架构
-
-### 模型结构
-基于实际代码的模型配置：
-
-**服务器环境**（V100s）：
+## 模型结构
 ```
 SimplifiedPoetryTransformer
 ├── 词嵌入层 (8,293 词汇量)
