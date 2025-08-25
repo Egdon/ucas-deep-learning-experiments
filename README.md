@@ -1,4 +1,4 @@
-# 国科大深度学习实验作业-UCAS Deep Learning Experiments 🧠
+# 国科大深度学习实验作业-UCAS Deep Learning Experiments 
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org)
@@ -16,7 +16,7 @@
 | **目标检测** | YOLOv5 | 自定义数据集 | mAP 90%+ | 实时检测，端到端训练 |
 
 
-## 🏗️ 项目结构
+## 项目结构
 
 ```
 deep-learning-experiments/
@@ -38,7 +38,7 @@ deep-learning-experiments/
 - `utils/` - 工具函数和辅助代码
 - `README.md` - 具体实验说明
 
-## 🚀 快速开始
+## 快速开始
 
 ### 环境要求
 - Python 3.8+
@@ -71,7 +71,7 @@ cd ../exp3
 python demo.py --start_words "湖光秋月两相和"
 ```
 
-## 📊 性能指标
+## 性能指标
 
 | 实验 | 指标类型 | 目标值 | 实际达成 | 备注 |
 |------|----------|--------|----------|------|
