@@ -26,12 +26,10 @@ SimplifiedPoetryTransformer
 data/
 └── tang.npz    # 唐诗数据集 (5.5MB)
 ```
-```
 checkpoints/server/best_model.pth  #最佳模型
 下载链接：
  google drive: https://drive.google.com/file/d/1fyTC_DLnSmb3npE2ORtx725PJqmXHemu/view?usp=sharing
  百度网盘: https://pan.baidu.com/s/1vcFdhBNDpTuSYLvTUuKFOQ 提取码: 5878 
-```
 ---
 
 ## 训练模型
